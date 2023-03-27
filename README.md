@@ -13,20 +13,20 @@ Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah datab
 menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p>
 ### Menjalankan MySQL Server
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.<p>
-![Gambar 1](gambar/1.png)
+![Gambar 1](img/1.png)
 ### Mengakses MySQL Client menggunakan PHP MyAdmin
 Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser:
 http://localhost/phpmyadmin/<p>
 ### Membuat Database: Studi Kasus Data Barang
-![Gambar 2](gambar/2.png)
-![Gambar 3](gambar/3.png)
-![Gambar 4](gambar/4.png)
-![Gambar 5](gambar/5.png)
-![Gambar 6](gambar/6.png)
+![Gambar 2](img/2.png)
+![Gambar 3](img/3.png)
+![Gambar 4](img/4.png)
+![Gambar 5](img/5.png)
+![Gambar 6](img/6.png)
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab3_php_database/ <p>
-![Gambar 7](gambar/7.png)
+![Gambar 7](img/7.png)
 ### Membuat file koneksi database
 Buat file baru dengan nama koneksi.php<p>
 ```
@@ -45,7 +45,7 @@ die();
 ```
 Buka melalui browser untuk menguji koneksi database (untuk menyampilkan pesan koneksi berhasil,
 uncomment pada perintah echo “koneksi berhasil”;<p>
-![Gambar 8](gambar/8.png)
+![Gambar 8](img/8.png)
 ### Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php<p>
 ```
@@ -99,7 +99,7 @@ $row['nama'];?>"></td>
 </body>
 </html>
 ```
-![Gambar 9](gambar/9.png)
+![Gambar 9](img/9.png)
 ### Menambah Data (Create)
 Buat file baru dengan nama tambah.php<p>
 ```
@@ -184,7 +184,7 @@ data">
 </body>
 </html>
 ```
-![Gambar 10](gambar/10.png)
+![Gambar 10](img/10.png)
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php<p>
 ```
@@ -291,7 +291,7 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![Gambar 11](gambar/11.png)
+![Gambar 11](img/11.png)
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php<p>
 ```
