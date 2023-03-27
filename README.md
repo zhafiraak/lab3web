@@ -184,7 +184,7 @@ data">
 </body>
 </html>
 ```
-![Gambar 10](img/10.png)
+![Gambar 10](img/11.png)
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php<p>
 ```
@@ -291,7 +291,7 @@ $data['id_barang'];?>" />
 </body>
 </html>
 ```
-![Gambar 11](img/11.png)
+![Gambar 11](img/10.png)
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php<p>
 ```
